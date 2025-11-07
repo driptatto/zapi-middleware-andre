@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // Webhook do n8n
-const N8N_WEBHOOK_URL = 'https://n8n-n8n.he93v9.easypanel.host/webhook/3a6b0230-16b8-425e-a645-3d490b05d77f';
+const N8N_WEBHOOK_URL = 'https://n8n-n8n.he93v9.easypanel.host/webhook/ec24605a-8bbd-44b8-8b92-c6a2a90b5b8a';
 
 app.post('/zapi', async (req, res) => {
   const body = req.body;
